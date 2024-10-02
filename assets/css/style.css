@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "lama-regular";
+  src: url(../fonts/LamaSans-Regular.otf);
+}
+@font-face {
+  font-family: "lama-bold";
+  src: url(../fonts/LamaSans-Bold.otf);
+}
+@font-face {
+  font-family: "lama-semibold";
+  src: url(../fonts/LamaSans-Medium.otf);
+}
+
+body {
+  font-family: "lama-regular";
+}
+
+.semibold-font {
+  font-family: "lama-semibold";
+  font-weight: 500;
+}
+.title {
+  position: relative;
+}
+.title::after {
+  content: "";
+  width: 420px;
+  height: 2px;
+  top: 50%;
+  background-color: #ffffff;
+  position: absolute;
+  font-family: "lama-regular";
+  font-size: 0.8em;
+  color: #666;
+  left: -50px;
+}
+.title::before {
+  content: "";
+  width: 420px;
+  height: 2px;
+  top: 50%;
+  background-color: #ffffff;
+  position: absolute;
+  font-family: "lama-regular";
+  font-size: 0.8em;
+  color: #666;
+  right: -50px;
+}
