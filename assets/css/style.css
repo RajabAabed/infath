@@ -21,6 +21,8 @@ body {
 }
 .title {
   position: relative;
+  font-family: "lama-semibold";
+  font-weight: 500;
 }
 .title::after {
   content: "";
